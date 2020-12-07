@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+body
+{
+	font-family: 'Titillium Web', sans-serif;
+	background: #00000;
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+	color: black;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+
+.row{
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.large{
+    height: 480px;
+    width: 368px;
+    
+}
+
+.align{
+    text-align: justify;
+	color: grey;
+    padding-top: 5px;
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+
+.detail a
+{
+	text-decoration: none;
+	color: black;
+}
+
+h1
+{
+	font-size: 74px;
+}
+
+h3
+{
+	font-size: 28px;
+	font-weight: bold;
+}
+.price
+{
+	color:#F93030;
+	padding-bottom: 5px;
+	font-size: 40px;
+}
+.qty
+{
+	width: 150px;
+	padding-bottom: 10px;
+}
+.btn
+{
+	background: radial-gradient(dodgerblue,cyan);
+	height: 15%;
+	width: 20%;
+	display: inline-block;
+	border-radius: 30px;
+}
+table
+{
+	padding-top: 100px;
+}
