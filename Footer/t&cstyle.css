@@ -1,0 +1,58 @@
+h1
+{
+  text-align: center;
+  font-weight: 200;
+  font-style: normal;
+  color: #313131;
+  font-size: 39px;
+  height: 40px;
+  letter-spacing: 3px;
+  font-variant-ligatures: none;
+}
+*
+{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.intro
+{
+ font-family: 'Lato', sans-serif;
+ font-weight: 300;
+ font-size: 17px;
+ color: #333333;
+}
+.collapsible {
+  background-color: rgba(0,0,0,.1);
+  color: #404040;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  border-color: #b3b3b3;
+  border-radius: 12px;
+}
+
+.active, .collapsible:hover {
+  background-color: #e6e6e6;
+  color: 555;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  font-family: 'Montserrat', sans-serif;
+  color: #737373;
+  border-radius: 10px;
+}
+.collapsible:after {
+  content: '\1A06';
+  color: #404040;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
